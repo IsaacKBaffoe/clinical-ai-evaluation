@@ -1,5 +1,5 @@
 \# Clinical AI Evaluation 
-\# Study practics
+\# Study practics and study
 
 
 
