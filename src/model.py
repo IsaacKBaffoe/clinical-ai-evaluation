@@ -16,3 +16,12 @@ def predict_risk(age, heart_rate):
 if __name__ == "__main__":
     result = predict_risk(age=70, heart_rate=110)
     print("Predicted risk:", result)
+
+def classify_risk(score):
+    # Classify a numerical score into a simple risk category
+    if score >= 0.7:
+        return "high"
+    elif score >= 0.4:
+        return "medium"
+    else:
+        return "low"
